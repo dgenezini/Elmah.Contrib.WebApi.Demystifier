@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Based on https://github.com/rdingwall/elmah-contrib-webapi/blob/master/src/Elmah.Contrib.WebApi/ElmahExceptionLogger.cs
+
+using System;
 using System.Diagnostics;
 using System.Net.Http;
 using System.Web;
@@ -6,7 +8,7 @@ using System.Web.Http.ExceptionHandling;
 
 namespace Elmah.Contrib.WebApi.Demystifier
 {
-    public class ElmahDemystifierExceptionLogger : ElmahExceptionLogger
+    public class ElmahDemystifierExceptionLogger : ExceptionLogger
     {
         public override void Log(ExceptionLoggerContext context)
         {

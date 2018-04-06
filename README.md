@@ -9,7 +9,7 @@ For more information about Ben.Demystifier: https://github.com/benaadams/Ben.Dem
 # Package Manager
 
 ```
-    Install-Package Elmah.Ben.Demystifier
+    Install-Package Elmah.Contrib.WebApi.Demystifier
 ```
 
 # Usage

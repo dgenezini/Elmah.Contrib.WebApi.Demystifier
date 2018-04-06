@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Elmah.Contrib.WebApi.Demystifier</id>
+    <version>1.0.0</version>
+    <authors>Daniel Genezini</authors>
+    <owners>Daniel Genezini</owners>
+    <licenseUrl>https://github.com/dgenezini/Elmah.Contrib.WebApi.Demystifier/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/dgenezini/Elmah.Contrib.WebApi.Demystifier</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ElmahExceptionLogger for WebAPI using Ben.Demystifier for high performance understanding for stack traces</description>
+    <summary>ElmahExceptionLogger for WebAPI using Ben.Demystifier for high performance understanding for stack traces</summary>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Elmah Ben.Demystifier Demystifier WebApi</tags>
+    <dependencies>
+      <dependency id="elmah" version="1.2.2" />
+      <dependency id="Ben.Demystifier" version="0.1.1" />
+      <dependency id="Elmah.Contrib.WebApi" version="1.0.10.25" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="..\src\Elmah.Contrib.WebApi.Demystifier\bin\Release\Elmah.Contrib.WebApi.Demystifier.dll" target="lib\net45\Elmah.Contrib.WebApi.Demystifier.dll"></file>
+  </files>
+</package>
